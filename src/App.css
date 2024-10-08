@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card {
+  transition: transform 0.3s ease; /* Smooth transition for the card size */
+}
+
+.card img {
+  transition: filter 0.3s ease; /* Smooth transition for the image brightness */
+}
+
+.card:hover img {
+  filter: brightness(0.8); /* Reduce brightness on hover */
+  cursor: pointer;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom button {
+  font-size: 12px;
+}
